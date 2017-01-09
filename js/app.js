@@ -104,7 +104,7 @@
               vector.scale(h, -1)));
 
         r = vector.add(
-            d, vector.scale(tn.n, vector.cross(tn.n, d) * -2));
+            d, vector.scale(tn.n, vector.dot(tn.n, d) * -2));
         
         b = vector.dot(l, tn.n);
 
