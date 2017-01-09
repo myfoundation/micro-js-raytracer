@@ -118,7 +118,8 @@
             h = vector.scale(h, 0.2);
             
             if (Math.ceil(h[0]) + Math.ceil(h[1]) & 1) {
-                return [3, 1, 1];
+                console.log('red');
+                return vector.scale([3, 1, 1], b * 0.2 + 0.1);
             } else {
                 return vector.scale([3, 3, 3], b * 0.2 + 0.1);
             }
